@@ -1,0 +1,12 @@
+@media(max-width: 1280px) {
+    .caixa-maior {
+        background-color: black;
+        gap: 30px;
+    }
+    .caixa-menor {
+        display: flex;
+        align-items: center;
+        /*alinhar itens*/
+        margin-top: 20px;
+    }    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsao-do-Tempo</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+</head>
+<body>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <link rel="stylesheet" href="./src/css/resonsivo.css">
+
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Nome da cidade">
+
+        <!-- onclick chama a função cliquei no botao-->
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        </button>
+
+        <div class="caixa-media">
+
+            <h2 class="cidade">Tempo em Balneario Camboriu</h2>
+
+            <p class="temp">21°C</p>
+
+
+
+            <div class="caixa-menor">
+                <img class="img-previsao" alt="icone-info-do-tempo" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="texto-previsao">Nublado</p>
+            </div>
+
+            <p class="umidade">Umidade:76%</p>
+        </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    height: 100vh;
+    /*altura*/
+    width: 100vw;
+    /*largura*/
+    display: flex;
+    justify-content: center;
+    /*alinha em orizontal*/
+    align-items: center;
+    /*alinha em vertical*/
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+/* ponto ( . ) chama a class*/
+.caixa-maior {
+    background-color: black;
+    opacity: 0.8;
+    /* transparencia*/
+    border-radius: 25px;
+    /*border-radius (bordas arrendondadas*/
+    padding: 20px;
+    /*padding ( desgruda das bordas)*/
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    /* tira as bordas*/
+    outline: none;
+    /* tira as linhas*/
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    /*tamanho da fonte*/
+    background-color: #7c7c7c2b;
+    /*cor da fonte */
+    color: #ffffff;
+    width: cal(100% - 70px);
+}
+
+.botao-busca {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    /* aparece a maozinha*/
+    float: right;
+    /* joga a lupa para esquerda*/
+}
+
+button:hover {
+    background-color: #7c7c7c;
+
+}
+
+.img-busca {
+    width: 20px;
+    /* tamanho da img da lupa*/
+}
+
+.caixa-media {
+    margin-top: 30px;
+
+}
+
+/* class caixa-media <h2>*/
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/*class temp <p> caixa media 21°C*/
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: context-menu;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    /*alinhar itens*/
+    margin-top: 20px;
+}
+
+/* class texto previsao <p> nublado*/
+.texto-previsao {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+    /*class="texto-previsao">Nublado</p> deixa as 1° letras maiuscula*/
+    cursor: context-menu;
+}
+
+/* class umidade 76%*/
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: context-menu;
+}
